@@ -30,4 +30,4 @@ Confident than ever before as i'm able to head detach whenever i want.
 
 7.Now that you have your workspace set up, what do you want to try using Git for?
 
-For creating exciting projects.
+For creating new exciting projects.
