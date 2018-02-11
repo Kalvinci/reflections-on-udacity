@@ -1,0 +1,33 @@
+
+1.How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+The use of diff -u command made error detection really easy. The output which gives information about the lines which are newly added and the lines which were removed makes it very easy to analyse the document. 
+
+
+
+2.How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Well, as a programmer as we continue building our project we often tend to make many refinements in our code. Making such refinements can sometimes lead to undesired errors and now that it becomes really undo all that we have done till now and restore it to the previous state. So, in such situations having a history of file making will make it far less tedious to restore to the previous version of our project and this almost always happens in no time. 
+
+
+3.What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Having a commit automatically might feel very helpful but in the long run it is mandatory to analyse how often will the commit be done. Google docs commits every now and then and this in turn makes the history of commits so big that navigating to the version that we intend to restore becomes tedious. So, the manual commit supported by Git is likely to have more advantages over automatic commits as we can commit whenever it feels right. Though the control of commit is totally in our hands it is very crucial that we follow certain rules and conventions for making good commits or else that will be still ugly.
+
+
+4.Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Well, it is a great feature of Git that it supports saving multiple files in one commit, because, in a project like situation multiple files are interlinked and changes in one file needs changes in other file too inorder to get the desired output. In such situations commiting all the files separately would be cumbersome especially if we have dozens of files which has to be changed. Such situations will ultimately attract the need for multiple file saving in single commit.
+
+
+5.How can you use the commands git log and git diff to view the history of files?
+
+Git log is used to see all the commits that has been done till now and git diff helps in seeing what are the changes that have been done in two commits. Using these two commands its easy to find history of files.
+
+6.How might using version control make you more confident to make changes that could break something?
+
+Confident than ever before as i'm able to head detach whenever i want.
+
+7.Now that you have your workspace set up, what do you want to try using Git for?
+
+For creating exciting projects.
