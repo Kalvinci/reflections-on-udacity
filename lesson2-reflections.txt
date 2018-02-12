@@ -14,3 +14,16 @@ Well, the git staging area has got the changes that we have added through git ad
 4.What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 A situation where one has to create multiple versions of the same project then branching would come handy. As a branch has completely separate copy of the master, it is less riskier to play with our code. As far as history is concerned each branch has its own log of history.
+
+5.How do the diagrams help you visualize the branch structure?
+
+Drawing the diagrams helps to visualize how the commits are made, which commits are non reachable and the sequence that will be shown by git log.
+
+6.What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+All the changes made in both the files which do not involve in any conflict will be in the final file. We represent it in the diagram to keep track of parent commits.
+
+7.What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+pros : Less headache for the user.
+cons : maybe what user wanted wont happen. 
