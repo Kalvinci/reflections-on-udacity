@@ -6,3 +6,11 @@ Just some meta data files are added to the repository. We need to initialize a r
 2.How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area is the place where we add files that are to be committed. The staging area is a virtual place where push all the upcoming commits whereas directory and repository are actual places where we create files, edit them.
+
+3.How can you use the staging area to make sure you have one commit per logical change?
+
+Well, the git staging area has got the changes that we have added through git add. Now, this can be compared with both the working directory as well as repository to find out whether the subsequent commit is a logical change or not.
+
+4.What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A situation where one has to create multiple versions of the same project then branching would come handy. As a branch has completely separate copy of the master, it is less riskier to play with our code. As far as history is concerned each branch has its own log of history.
