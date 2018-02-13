@@ -14,3 +14,18 @@ branches are the version of the same project.
 forks will be used when we want to make copy over github itself instead of cloning it the local repository and then modifying it commiting it and then push it to github.
 clone will be used for just copying the a project onto the local repository.
 branches will be made when we want to make some new versions of the existing project without affecting the original one.
+
+4.What is the benefit of having a copy of the last known state of the remote stored locally?
+
+We can make new commits to introduce changes. Moreover, we can resolve all the conflicting changes in the repository.
+
+5.How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Its tough to collaborate without git. 
+Managing conflicting changes would be very tough though it would be easy to not use any commands to deal with our project.
+
+6.When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Branches are uselful when we are not sure of whether the changes made are correct and intact with our purpose and we want to take consent of all the contributors of our project before commiting it to the master. 
+Well commting changes directly on master is a easy way to introduce changes but it is risky.
+Branching will lead to more educated decisions through the consent of other people and moreover if anything goes wrong we can just not merge the branch with the master. 
