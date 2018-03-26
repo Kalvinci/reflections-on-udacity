@@ -31,3 +31,7 @@ Well commting changes directly on master is a easy way to introduce changes but 
 Branching will lead to more educated decisions through the consent of other people and moreover if anything goes wrong we can just not merge the branch with the master. 
 
 Commands :
+
+1. git remote add remote-name git-link (create a gateway to a github repository specified by the git-link)
+2. git push remote-name branch-name
+3. git pull remote-name branch-name
