@@ -33,5 +33,6 @@ Branching will lead to more educated decisions through the consent of other peop
 Commands :
 
 1. git remote add remote-name git-link (create a gateway to a github repository specified by the git-link)
-2. git push remote-name branch-name
-3. git pull remote-name branch-name
+2. git push remote-name branch-name-of-local-repository
+3. git pull remote-name branch-name-of-remote-repository (git pull = git fetch followed by git merge branch-name remote-name)
+4. git fetch remote (to fetch the changes that are made in the repository to remote/branch-name)
