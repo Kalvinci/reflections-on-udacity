@@ -28,6 +28,9 @@ All the changes made in both the files which do not involve in any conflict will
 pros : Less headache for the user.
 cons : maybe what user wanted wont happen. 
 
+Note :
+branches are actually just the labels to commits and whenever we checkout a branch and make commits to it the branch name is carried forward with the commit keeping the branch updated.
+
 Commands :
 
 1. git init
