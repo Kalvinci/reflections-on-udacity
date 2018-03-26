@@ -29,3 +29,5 @@ Managing conflicting changes would be very tough though it would be easy to not 
 Branches are uselful when we are not sure of whether the changes made are correct and intact with our purpose and we want to take consent of all the contributors of our project before commiting it to the master. 
 Well commting changes directly on master is a easy way to introduce changes but it is risky.
 Branching will lead to more educated decisions through the consent of other people and moreover if anything goes wrong we can just not merge the branch with the master. 
+
+Commands :

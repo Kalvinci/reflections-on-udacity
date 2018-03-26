@@ -27,3 +27,19 @@ All the changes made in both the files which do not involve in any conflict will
 
 pros : Less headache for the user.
 cons : maybe what user wanted wont happen. 
+
+Commands :
+
+1. git init
+2. git add
+3. git commit -m "any message"
+4. git status
+5. git diff (without any arguments to compare the working directory and the staging area)
+6. git diff --staged (to compare the staging area and the recent commit in the repository)
+7. git reset --hard (discards the changes in both working directory and staging area)
+8. git branch (without any arguments will display the existing branches in the repository)
+9. git branch branch-name (will create a branch with branch-name as name)
+10. git log --graph --oneline branch-name-1 branch-name-2 (to visualize the log of the commits in the branches)
+11. git merge branch-name-1 branch-name-2
+12. git show commitid (to see what is the differnce between commitid commit and its parent commit -- very useful after merges)
+13. git branch -d branch-name (to delete a branch)

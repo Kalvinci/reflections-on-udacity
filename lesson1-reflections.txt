@@ -31,3 +31,11 @@ Confident than ever before as i'm able to head detach whenever i want.
 7.Now that you have your workspace set up, what do you want to try using Git for?
 
 For creating new exciting projects.
+
+Commands : 
+ 
+1. git log
+2. git log --stat
+3. git diff commit1 commit2
+4. git checkout commitid/branch-name (branch-name to swtich to a branch)
+5. git status
